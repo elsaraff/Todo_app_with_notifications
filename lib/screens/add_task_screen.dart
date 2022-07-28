@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../core/constants.dart';
+import '../core/functions.dart';
 import '../cubit/cubit.dart';
 import '../cubit/states.dart';
 import '../reusable_components/home_screen_widgets/my_color_widget.dart';
@@ -234,6 +235,7 @@ class AddTaskScreen extends StatelessWidget {
                         repeat: AppCubit.get(context).repeaterValue,
                         color: AppCubit.get(context).colorValue,
                       );
+                      showToast(message: 'Task Added', context);
                     }
                   },
                 ),

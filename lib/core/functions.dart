@@ -15,6 +15,18 @@ navigateAndFinish(context, widget) {
   );
 }
 
+void showToast(BuildContext context, {required String message}) {
+  final scaffold = ScaffoldMessenger.of(context);
+  scaffold.showSnackBar(
+    SnackBar(
+      content: Text(message),
+      action:
+          SnackBarAction(label: 'OK', onPressed: scaffold.hideCurrentSnackBar),
+    ),
+  );
+  Navigator.pop(context);
+}
+
 String getDay(day) {
   switch (day) {
     case 1:
