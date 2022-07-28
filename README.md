@@ -8,8 +8,6 @@ https://drive.google.com/file/d/1-1SJcuby5bSQTP-B6Dkgm14cFvOiiPvI/view
 
 ## Screenshots :camera:	
 
-Splash screen
-
 <img src="screenshots/1.jpg" alt="Alt text" width="200" height="400" >
 
 <img src="screenshots/2.jpg" alt="Alt text" width="200" height="400" >
