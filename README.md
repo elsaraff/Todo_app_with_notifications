@@ -10,7 +10,9 @@ https://drive.google.com/file/d/1-1SJcuby5bSQTP-B6Dkgm14cFvOiiPvI/view
 
 Splash screen
 
-![alt text](screenshots/1.jpg width="200" height="400"  )
+<img src="screenshots/1.jpg" alt="Alt text" title="Optional title">
+
+![alt text](screenshots/1.jpg )
 
 ![alt text](screenshots/2.jpg )
 
