@@ -3,7 +3,9 @@
 Plan, organize, and collaborate on any project with powerful task management that can be customized for every need.
 
 ## ScreenShots
+
 Splash screen
+
 ![alt text](screenshots/1.jpg )
 
 ![alt text](screenshots/2.jpg )
